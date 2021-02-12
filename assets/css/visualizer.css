@@ -1,4 +1,9 @@
 body {
+    margin: 0;
     background-color: lightblue;
-    text-align: center;
+}
+
+nav {
+    background-color: midnightblue;
+    color: white;
 }

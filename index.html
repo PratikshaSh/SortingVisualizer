@@ -3,20 +3,34 @@
 
 <head>
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Sorting Visualizer</title>
-    <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="./assets/css/visualizer.css">
 </head>
 
 <body>
     <header>
-        <h1>Sorting Visualizer header</h1>
+        <!-- <h1>Sorting Visualizer header</h1> -->
+        <nav>
+            <div class="nav-left">
+                <p>Size of the array:</p>
+                <input id="array-size" type="range" min=5 max=50 step=1 value=25>
+                <button id="generate-array">Generate New Array</button>
+            </div>
+            <div class="nav-right">
+                <p class="navbar-heading">SORTING VISUALIZER</p>
+                <div class="sorting-algos-buttons">
+                    <button>Merge Sort</button>
+                    <button>Quick Sort</button>
+                    <button>Heap Sort</button>
+                    <button>Bubble Sort</button>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <section>
-        <h1>Hi! This is my Sorting Visualizer</h1>
+        <h1 id="msg">Hi! This is my Sorting Visualizer</h1>
     </section>
 
 
@@ -25,7 +39,7 @@
 
     </footer>
 
-    <script src="" async defer></script>
+    <script src="./assets/js/visualizer.js"></script>
 </body>
 
 </html>
