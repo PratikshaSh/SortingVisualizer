@@ -1,9 +1,37 @@
 body {
     margin: 0;
-    background-color: lightblue;
+    background-color: white;
 }
 
 nav {
     background-color: midnightblue;
     color: white;
+}
+
+.nav-left {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    column-gap: 10%;
+    justify-content: center;
+    margin: 0px 3%;
+}
+
+section {
+    margin: 0% 10%;
+}
+
+section #array-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: 70vh;
+}
+
+.hide {
+    display: none;
+}
+
+.butt_selected {
+    background-color: grey;
 }
